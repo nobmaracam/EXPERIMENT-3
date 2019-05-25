@@ -1,0 +1,25 @@
+//experiment 3 number 3
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+	char word[80];
+	int a;
+	cout<<"Size of the array: "; cin>>a;
+		
+	for(int i = 0; i<a; i++)
+	{
+		cout<<"\nEnter a character: ";
+		cin>>word[i];
+	}
+	
+	for(int i = a; i>=0; i--)
+	{
+		cout<<word[i];
+	}
+	
+	_getch();
+	return 0;
+	}
