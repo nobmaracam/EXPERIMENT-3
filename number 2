@@ -1,0 +1,41 @@
+//experiment 3 number 2
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+	int Province_A[7];
+	int Province_B[7];
+	int Province_C[7];
+	
+	for(int i = 0; i<7; i++)
+	{
+		cout<<"Province A, Day "<<i+1<<": "; cin>>Province_A[i];
+	}
+	for(int i = 0; i<7; i++)
+	{
+		cout<<"Province B, Day "<<i+1<<": "; cin>>Province_B[i];
+	}
+	for(int i = 0; i<7; i++)
+	{
+		cout<<"Province C, Day "<<i+1<<": "; cin>>Province_C[i];
+	}
+	
+	for(int i = 0; i<7; i++)
+	{
+		cout<<"Province A, Day 1 = "<<Province_A[i]<<endl;
+	}
+	for(int i = 0; i<7; i++)
+	{
+		cout<<"Province B, Day 1 = "<<Province_B[i]<<endl;
+    }
+    for(int i = 0; i<7; i++)
+	{
+		cout<<"Province C, Day 1 = "<<Province_C[i]<<endl;
+    }
+    
+    _getch();
+    return 0;
+    
+}
